@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.change_color{
+    color: #6ed1d1f6;
+}
+.top_banner{
+    display: flex;
+    padding: 0 30px;
+}
+.banner_content{
+    width: 50%;
+    margin-right: 50px;
+}
+.banner_content h1{
+    font-size: 55px;
+    text-transform: capitalize;
+}
+
+.banner_content p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.order_food_btn{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #6ed1d1f6;
+    padding: 10px 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.banner_img{
+    width:50%;
+}
+.banner_img img{
+    width: 100%;
+}
+
+.counter_section{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px 3px rgb(53, 53, 54);
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+.counter_wapper h1{
+    font-size: 45px;
+    text-align: center;
+}
+.counter_wapper p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.about_section{
+    display: flex;
+    background-image: url('./images/shapes/Frame\ 57.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.about_img{
+    width: 50%;
+}
+.about_img img{
+    width: 100%;
+}
+.about_content{
+    width: 50%;
+}
+.about_content h2{
+    font-size: 40px;
+}
+.about_content{
+    font-size: 17px;
+    line-height: 30px;
+}
+.recipie_section{
+    margin-top: 100px;
+}
+.recipie_section .title{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+.recipie_section .title h2{
+    font-size: 40px;
+}
+.recipie_section .title p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.recipie_wapper{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.recipie_cart{
+    width: 43%;
+    box-shadow: 0px 0px 10px 3px rgb(53, 53, 54);
+    padding: 30px;
+}
+.recipie_cart h4{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.recipie_cart img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.footer{
+    background-color: black;
+    padding: 40px 0;
+    text-align: center;
+    color: #FFF;
+    margin-top: 100px;
+    text-transform: capitalize;
+}
+.footer h4{
+    font-size: 25px;
+}
+.footer span{
+    color: #6ed1d1f6;;
+}
